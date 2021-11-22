@@ -1,0 +1,9 @@
+[2021-11-22T14:36:29.367] [ERROR] error - ReferenceError: ctx is not defined
+    at C:\Exercises\manager-server\app.js:35:3
+    at dispatch (C:\Exercises\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Exercises\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Exercises\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\Exercises\manager-server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\Exercises\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Exercises\manager-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:82:5)
